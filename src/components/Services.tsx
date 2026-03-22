@@ -124,26 +124,6 @@ export function Services() {
           ))}
         </div>
 
-        <div className="bg-gradient-to-br from-brand-navy via-brand-navy-light to-brand-navy rounded-[2.5rem] p-10 sm:p-16 text-center text-white relative overflow-hidden shadow-2xl shadow-brand-navy/20">
-          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10 mix-blend-overlay"></div>
-          <div className="relative z-10">
-            <h3 className="text-2xl sm:text-3xl font-black mb-10 font-display">Why Our Services Work</h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
-              <div className="font-bold text-brand-teal text-lg">Consulting-Led Design</div>
-              <div className="font-bold text-brand-green text-lg">Learner-First Focus</div>
-              <div className="font-bold text-brand-orange text-lg">Retention & ROI</div>
-              <div className="font-bold text-brand-teal text-lg">Trusted Expertise</div>
-            </div>
-            <div className="flex flex-wrap items-center justify-center gap-4">
-              <a
-                href="#contact"
-                className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-brand-navy bg-white hover:bg-brand-teal hover:text-white transition-colors duration-300 rounded-full shadow-lg"
-              >
-                Book a Discovery Call
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
