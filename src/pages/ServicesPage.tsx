@@ -2,7 +2,6 @@ import { Services } from "../components/Services";
 import { PageHero } from "../components/PageHero";
 import { ServicesProcess } from "../components/ServicesProcess";
 import { ServicesBenefits } from "../components/ServicesBenefits";
-import { ServicesCTA } from "../components/ServicesCTA";
 import { WhoWeHelp } from "../components/WhoWeHelp";
 
 export function ServicesPage() {
@@ -17,7 +16,6 @@ export function ServicesPage() {
       <Services />
       <ServicesBenefits />
       <ServicesProcess />
-      <ServicesCTA />
     </div>
   );
 }
