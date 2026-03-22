@@ -17,7 +17,7 @@ export default function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div className="min-h-screen bg-[url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80')] bg-fixed bg-cover bg-center text-slate-900 font-sans selection:bg-brand-teal selection:text-white flex flex-col">
+      <div className="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-brand-teal selection:text-white flex flex-col">
         <Navbar />
         <main className="flex-grow">
           <Routes>
