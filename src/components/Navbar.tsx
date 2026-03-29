@@ -55,7 +55,7 @@ export function Navbar() {
             </Link>
           ))}
           <a
-            href="#contact"
+            href="mailto:connect@talentforgestrategy.com"
             className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold text-white bg-brand-navy hover:bg-brand-teal transition-colors rounded-full shadow-md shadow-brand-navy/10"
           >
             Book a Discovery Call
@@ -95,7 +95,7 @@ export function Navbar() {
                 </Link>
               ))}
               <a
-                href="#contact"
+                href="mailto:connect@talentforgestrategy.com"
                 onClick={() => setMobileMenuOpen(false)}
                 className="inline-flex items-center justify-center px-5 py-3 text-sm font-bold text-white bg-brand-navy hover:bg-brand-teal transition-colors rounded-full mt-4"
               >

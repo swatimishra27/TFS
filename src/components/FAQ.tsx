@@ -14,43 +14,43 @@ const faqCategories = [
 const faqs = [
   {
     category: "general",
-    question: "How is Talent Forge different from other training providers?",
-    answer: "Most providers deliver one-size-fits-all sessions that end when the trainer leaves. At Talent Forge, we start with consulting to understand your unique challenges, co-create contextual programs, and ensure learning sticks with post-training reinforcement.",
+    question: "How is Talent Forge different from other providers?",
+    answer: "We don't deliver one-size-fits-all programs. We start with consulting, co-create contextual solutions, and ensure long-term impact through reinforcement.",
   },
   {
     category: "impact",
-    question: "How do you ensure ROI from training?",
-    answer: "ROI is built into our process. We use discovery calls, alignment with business goals, customized content, and follow-up retention plans (30–90 days) to ensure knowledge is applied, measured, and tied to real outcomes.",
+    question: "How do you ensure ROI?",
+    answer: "Through discovery, alignment with business goals, customized solutions, and structured retention plans (30–90 days).",
   },
   {
     category: "process",
-    question: "Do you offer demo sessions before we commit?",
-    answer: "Yes. We provide a 30-minute content walkthrough and trainer style preview before the actual session. This ensures you know what to expect and can select the delivery style best suited for your audience.",
+    question: "Do you offer demo sessions?",
+    answer: "Yes, we provide content walkthroughs and delivery previews before engagement.",
   },
   {
     category: "process",
-    question: "What if our people don’t have time for long workshops?",
-    answer: "We understand time is limited. That’s why we design modular, skill-focused sessions and create flexible learning journeys that fit into your employees’ schedules — without losing depth or impact.",
+    question: "What if employees don't have time?",
+    answer: "We design modular, flexible learning journeys without compromising depth.",
   },
   {
     category: "services",
-    question: "Can your programs be tailored to our industry or challenges?",
-    answer: "Absolutely. Every program is co-created with your leadership and stakeholders. We customize content and delivery to address your exact business context, challenges, and goals.",
+    question: "Are solutions customizable?",
+    answer: "Absolutely. Every engagement is tailored to your business context.",
   },
   {
     category: "general",
-    question: "Do you also support individuals, or only organizations?",
-    answer: "Both. While we partner deeply with organizations, we also design programs and coaching for professionals looking to enhance their skills, confidence, and career growth.",
+    question: "Do you support individuals?",
+    answer: "Yes, alongside organizations, we support professionals in career and capability growth.",
   },
   {
     category: "services",
-    question: "What types of learning solutions do you offer?",
-    answer: "Our services include Leadership Development, Train-the-Trainer, Assessments, Compliance Training, Women in Leadership, and DEIB programs. Each solution is designed to drive confidence, culture, and measurable growth.",
+    question: "What solutions do you offer?",
+    answer: "Talent Acquisition, Leadership Development, Assessments, Learning Solutions, Culture Transformation, Compliance Training, and Global Payroll Services.",
   },
   {
     category: "process",
-    question: "What happens after the training is done?",
-    answer: "Unlike most providers, we don’t stop at the event. We provide retention planners, refresher sessions, group connects, and ongoing coaching to ensure learning translates into lasting change.",
+    question: "What happens after engagement?",
+    answer: "We ensure continuity through retention plans, coaching, and ongoing support.",
   },
 ];
 

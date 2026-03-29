@@ -9,11 +9,11 @@ const steps = [
     color: "text-brand-teal",
     bg: "bg-brand-teal/5",
     items: [
-      "Consult with your leadership and stakeholders.",
-      "Understand your organizational challenges.",
-      "Define clear learning objectives.",
+      "Stakeholder consultations (CXOs, leaders, teams).",
+      "Identify business challenges & capability gaps.",
+      "Define clear success metrics.",
     ],
-    outcome: "A shared understanding of the problem and the goals.",
+    outcome: "Clarity on problems and goals.",
     image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80"
   },
   {
@@ -23,25 +23,25 @@ const steps = [
     color: "text-brand-green",
     bg: "bg-brand-green/10",
     items: [
-      "Tailored content aligned to your context.",
-      "Choice of training styles (so you pick what works for your people).",
-      "Demo sessions and walkthroughs for full transparency.",
+      "Tailored solutions aligned to business context.",
+      "Flexible learning & execution formats.",
+      "Demo sessions & walkthroughs.",
     ],
-    outcome: "A personalized learning journey designed for your audience.",
+    outcome: "Customized solution built with you.",
     image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80"
   },
   {
     number: "03",
-    title: "Deliver & Engage",
+    title: "Deliver & Enable",
     subtitle: "Connecting Theory to Practice",
     color: "text-brand-orange",
     bg: "bg-brand-orange/5",
     items: [
-      "Interactive sessions that connect theory to practice.",
-      "Programs designed for skill-building, not just 'event learning.'",
-      "Flexible formats (modular, skill-focused, short-duration if needed).",
+      "Highly engaging, application-focused interventions.",
+      "Skill-building, not event-based learning.",
+      "Flexible delivery formats.",
     ],
-    outcome: "Learners are engaged, motivated, and empowered.",
+    outcome: "Engaged learners and real capability building.",
     image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80"
   },
   {
@@ -51,11 +51,11 @@ const steps = [
     color: "text-brand-navy",
     bg: "bg-brand-navy/5",
     items: [
-      "30, 45, 60, 90-day retention plans.",
-      "Refresher sessions and group connects.",
-      "Ongoing coaching and learner support.",
+      "30-60-90 day retention plans.",
+      "Refresher sessions & group connects.",
+      "Coaching & continuous support.",
     ],
-    outcome: "Lasting knowledge, measurable ROI, and visible change.",
+    outcome: "Measurable ROI and sustained behavior change.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80"
   },
 ];

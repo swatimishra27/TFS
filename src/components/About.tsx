@@ -2,16 +2,16 @@ import { motion } from "motion/react";
 import { CheckCircle2 } from "lucide-react";
 
 const missions = [
-  "Make a real shift in learners' lives.",
-  "Help talents discover and reach their fullest potential.",
+  "Make a real shift in learners' and professionals' lives.",
+  "Help talent discover and reach their fullest potential.",
   "Transform learning into business outcomes that drive growth and resilience.",
   "Support organizations in building future-ready, agile workforces.",
 ];
 
 const differences = [
-  { title: "Consulting-Driven Learning", desc: "Start with discovery & need analysis.", color: "text-brand-teal" },
-  { title: "Learner-First Mindset", desc: "Personalized and contextual programs.", color: "text-brand-green" },
-  { title: "Impact Beyond Training", desc: "Retention planners & post-learning support.", color: "text-brand-orange" },
+  { title: "Consulting-Driven Solutions", desc: "Start with discovery & need analysis.", color: "text-brand-teal" },
+  { title: "Learner & Business First Mindset", desc: "Personalized, contextual, and outcome-driven.", color: "text-brand-green" },
+  { title: "Impact Beyond Training", desc: "Retention planners, coaching, and reinforcement systems.", color: "text-brand-orange" },
   { title: "Trust & Transparency", desc: "Demo sessions & content walkthroughs upfront.", color: "text-brand-navy" },
 ];
 

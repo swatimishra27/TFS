@@ -6,7 +6,7 @@ const slides = [
   {
     image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80",
     title: "Forging Talent for High-Performance Organizations",
-    subtitle: "At Talent Forge, we don't just deliver training—we design consulting-driven, personalized learning journeys that unlock human potential, strengthen leadership, and deliver measurable business impact.",
+    subtitle: "At Talent Forge, we don't just deliver training—we design consulting-driven, personalized learning and talent solutions that unlock human potential, strengthen leadership, and deliver measurable business impact.",
   },
   {
     image: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80",
@@ -66,7 +66,7 @@ export function Hero() {
             >
               <div className="inline-flex items-center rounded-full px-4 py-1.5 text-sm font-semibold text-white bg-white/10 backdrop-blur-md mb-8 ring-1 ring-white/20">
                 <span className="w-2 h-2 rounded-full bg-brand-teal mr-2 animate-pulse"></span>
-                Talent Management & Organizational Strategy
+                Talent Management | Leadership Development | Organizational Strategy | Talent Acquisition | Global Workforce Solutions
               </div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white mb-6 leading-[1.1] font-display">
                 {slides[currentSlide].title.split(' ').map((word, i) => 
@@ -80,14 +80,14 @@ export function Hero() {
               </p>
               <div className="flex flex-wrap items-center gap-4">
                 <a
-                  href="#contact"
+                  href="mailto:connect@talentforgestrategy.com"
                   className="inline-flex items-center justify-center px-6 py-3 text-sm font-bold text-brand-navy bg-white hover:bg-brand-teal hover:text-white transition-all duration-300 rounded-full group shadow-lg shadow-white/10 hover:-translate-y-0.5"
                 >
                   Book a Discovery Call
                   <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </a>
                 <a
-                  href="#services"
+                  href="/services"
                   className="inline-flex items-center justify-center px-6 py-3 text-sm font-bold text-white bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition-colors rounded-full"
                 >
                   Explore Services

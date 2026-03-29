@@ -4,70 +4,63 @@ import { BookOpen, Users, ShieldCheck, Star, Award, HeartHandshake } from "lucid
 const services = [
   {
     icon: Star,
-    title: "Leadership Development",
+    title: "1. Talent Strategy & Acquisition",
     color: "text-brand-teal",
     bg: "bg-brand-teal/10",
     items: [
-      "Executive Coaching: One-on-one coaching for senior leaders.",
-      "Leadership Assessment: Evaluate styles, capabilities, and readiness.",
-      "Development Programs: Structured programs across different levels.",
-      "Train the Trainer Programs: Equip trainers to inspire and deliver impact.",
+      "Talent Strategy & Workforce Planning",
+      "Executive Recruitment",
+      "CXO / VP / HOD Hiring",
+      "Top Talent Sourcing & Market Mapping",
+      "Hiring Process Consulting",
     ],
   },
   {
     icon: BookOpen,
-    title: "Learning Content & Delivery",
+    title: "2. Leadership & Capability Development",
     color: "text-brand-green",
     bg: "bg-brand-green/20",
     items: [
-      "Workshop Content: Contextualized, engaging material.",
-      "E-Learning Content: Digital modules that are accessible and scalable.",
-      "Content Library: A ready-to-use repository of structured training.",
-    ],
-  },
-  {
-    icon: Award,
-    title: "Assessments & Evaluations",
-    color: "text-brand-orange",
-    bg: "bg-brand-orange/10",
-    items: [
-      "Psychometric Assessments: Gain deep insights into behavior and potential.",
-      "360° Feedback: Collect multi-level feedback to identify growth opportunities.",
-      "Assessment & Development Centres: Structured evaluation programs.",
-      "Behavioral Event Interviewing: Assess past behavior for predicting future performance.",
-    ],
-  },
-  {
-    icon: ShieldCheck,
-    title: "Compliance Training",
-    color: "text-brand-navy",
-    bg: "bg-brand-navy/10",
-    items: [
-      "POSH: Create safe, respectful workplaces.",
-      "POCSO: Mandatory awareness for child safety.",
-      "EHS: Promote safety-first culture.",
-      "AML & ABAC: Ensure financial integrity and ethical practices.",
+      "Executive Coaching (1:1 for senior leaders)",
+      "Leadership Development Programs (across levels)",
+      "Leadership Assessments",
+      "Train-the-Trainer Programs: Product / Process, Sales, Behavioral / Soft Skills, Master Behavioral Trainer",
     ],
   },
   {
     icon: Users,
-    title: "Women in Leadership",
-    color: "text-brand-teal",
-    bg: "bg-brand-teal/10",
+    title: "3. Organizational Effectiveness & Culture",
+    color: "text-brand-orange",
+    bg: "bg-brand-orange/10",
     items: [
-      "First-Time Women Leaders: Support stepping into leadership roles.",
-      "Middle-Level Women Leaders: Build influence, resilience, and career advancement.",
-      "Executive Women Leaders: Empower senior women leaders to navigate complexity.",
+      "Women in Leadership: First-Time, Middle-Level, Executive",
+      "Diversity, Equity, Inclusion & Belonging (DEIB): Overcoming Unconscious Bias, Customized DEIB Programs",
+      "Culture & Behavioral Interventions",
+      "Employee Experience Enhancement",
+    ],
+  },
+  {
+    icon: ShieldCheck,
+    title: "4. Learning, Assessment & Compliance Ecosystem",
+    color: "text-brand-navy",
+    bg: "bg-brand-navy/10",
+    items: [
+      "Learning Solutions: Workshop Content, E-Learning Modules, Content Library",
+      "Assessments & Evaluations: Psychometric, 360° Feedback, Assessment & Development Centres, Behavioral Event Interviewing",
+      "Compliance Training: POSH, POCSO, EHS, AML, ABAC",
     ],
   },
   {
     icon: HeartHandshake,
-    title: "Diversity, Equity, Inclusion & Belonging",
-    color: "text-brand-green",
-    bg: "bg-brand-green/20",
+    title: "5. Global Payroll & Workforce Operations",
+    color: "text-brand-teal",
+    bg: "bg-brand-teal/10",
     items: [
-      "Overcoming Unconscious Bias: Awareness and tools to identify hidden biases.",
-      "Customized DEIB Programs: Tailored workshops to foster inclusion and equity.",
+      "Multi-Country Payroll Management",
+      "Statutory Compliance & Regulatory Adherence",
+      "Payroll Processing & Administration",
+      "Employee Lifecycle & Payroll Support",
+      "Scalable Workforce Solutions",
     ],
   },
 ];
@@ -79,10 +72,10 @@ export function Services() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl font-black tracking-tight text-brand-navy mb-6 font-display">
-            Our Approach to Learning & Development
+            End-to-End Talent & Organization Solutions
           </h2>
           <p className="text-lg text-slate-600 leading-relaxed">
-            We believe training should never be a one-day event. Every program is <strong className="font-bold text-brand-navy">consulting-driven, personalized, and impact-focused.</strong>
+            We don't offer isolated services — we solve business problems through integrated talent, leadership, and organizational solutions.
           </p>
         </div>
 

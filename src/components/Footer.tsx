@@ -17,7 +17,7 @@ export function Footer() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-teal via-brand-green to-brand-orange">We help unlock it.</span>
           </h2>
           <a
-            href="mailto:contact@talentforge.com"
+            href="mailto:connect@talentforgestrategy.com"
             className="inline-flex items-center justify-center px-6 py-3 text-sm font-bold text-brand-navy bg-white hover:bg-brand-teal hover:text-white transition-all duration-300 rounded-full shadow-xl shadow-brand-teal/20 hover:-translate-y-1"
           >
             Let's Get Started
@@ -92,7 +92,7 @@ export function Footer() {
                   <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center flex-shrink-0 text-brand-orange">
                     <Mail className="w-5 h-5" />
                   </div>
-                  <a href="mailto:contact@talentforge.com" className="hover:text-brand-teal transition-colors">contact@talentforge.com</a>
+                  <a href="mailto:connect@talentforgestrategy.com" className="hover:text-brand-teal transition-colors">connect@talentforgestrategy.com</a>
                 </li>
               </ul>
             </div>

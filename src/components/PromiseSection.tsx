@@ -1,14 +1,22 @@
 import { motion } from "motion/react";
-import { Target, TrendingUp, Users } from "lucide-react";
+import { Target, TrendingUp, Users, CheckCircle2 } from "lucide-react";
 
 const promises = [
   {
     title: "Consulting-First Approach",
-    description: "We uncover your true challenges before designing solutions.",
+    description: "We uncover your true business challenges before designing solutions.",
     icon: Target,
     color: "text-brand-teal",
     bg: "bg-brand-teal/10",
     border: "group-hover:border-brand-teal/30"
+  },
+  {
+    title: "End-to-End Talent Solutions",
+    description: "From hiring to development to retention and operations.",
+    icon: CheckCircle2,
+    color: "text-brand-navy",
+    bg: "bg-brand-navy/10",
+    border: "group-hover:border-brand-navy/30"
   },
   {
     title: "Learning That Lasts",
@@ -20,7 +28,7 @@ const promises = [
   },
   {
     title: "Personalized Journeys",
-    description: "Every program is tailored to your people, culture, and goals.",
+    description: "Every solution is tailored to your people, culture, and goals.",
     icon: Users,
     color: "text-brand-orange",
     bg: "bg-brand-orange/10",
@@ -37,11 +45,11 @@ export function PromiseSection() {
             Our Promise
           </h2>
           <p className="text-lg text-slate-600 leading-relaxed">
-            Generic workshops end when the trainer leaves. We ensure learning continues to create real, lasting outcomes.
+            Generic workshops end when the trainer leaves. We ensure learning and talent solutions continue to create real, lasting outcomes.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {promises.map((promise, index) => (
             <motion.div
               key={promise.title}

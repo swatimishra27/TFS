@@ -25,7 +25,7 @@ export function AboutContact() {
               <Mail className="w-6 h-6 text-brand-teal" />
             </div>
             <h3 className="text-xl font-bold text-brand-navy mb-2 font-display">Email Us</h3>
-            <p className="text-slate-600">hello@talentforge.com</p>
+            <p className="text-slate-600">connect@talentforgestrategy.com</p>
           </motion.div>
 
           <motion.div

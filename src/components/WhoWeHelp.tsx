@@ -40,10 +40,10 @@ export function WhoWeHelp() {
                 Build future-ready leaders, strengthen culture, and optimize talent for growth.
               </p>
               <a
-                href="#services"
+                href="/services"
                 className="inline-flex items-center text-brand-teal font-bold hover:text-white transition-colors"
               >
-                Explore Organizational Services &rarr;
+                Explore Services &rarr;
               </a>
             </div>
           </motion.div>
@@ -73,10 +73,10 @@ export function WhoWeHelp() {
                 Enhance skills, boost confidence, and accelerate career growth.
               </p>
               <a
-                href="#services"
+                href="/services"
                 className="inline-flex items-center text-white font-bold hover:text-brand-navy transition-colors"
               >
-                Explore Professional Coaching &rarr;
+                Explore Services &rarr;
               </a>
             </div>
           </motion.div>
