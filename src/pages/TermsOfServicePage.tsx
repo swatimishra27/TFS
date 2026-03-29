@@ -41,7 +41,7 @@ export function TermsOfServicePage() {
       <PageHero 
         title="Terms of" 
         subtitle="Service" 
-        image="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80"
+        image="https://images.unsplash.com/photo-1589216532372-1c2a367900d9?auto=format&fit=crop&q=80"
       />
 
       <section className="py-24">
