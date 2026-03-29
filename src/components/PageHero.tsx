@@ -11,7 +11,7 @@ export function PageHero({ title, subtitle, image = "https://images.unsplash.com
     <div className="relative h-[40vh] min-h-[300px] flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-fixed"
+        className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url('${image}')` }}
       >
         <div className="absolute inset-0 bg-brand-navy/60 backdrop-blur-[2px]" />

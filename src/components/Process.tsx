@@ -56,7 +56,7 @@ const steps = [
       "Ongoing coaching and learner support.",
     ],
     outcome: "Lasting knowledge, measurable ROI, and visible change.",
-    image: "https://images.unsplash.com/photo-1454165833767-027ffea9e41b?auto=format&fit=crop&q=80"
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80"
   },
 ];
 

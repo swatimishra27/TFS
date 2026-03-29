@@ -2,7 +2,6 @@ import { Process } from "../components/Process";
 import { PageHero } from "../components/PageHero";
 import { ProcessMethodology } from "../components/ProcessMethodology";
 import { ProcessEngagement } from "../components/ProcessEngagement";
-import { ProcessCTA } from "../components/ProcessCTA";
 
 export function ProcessPage() {
   return (
@@ -15,7 +14,6 @@ export function ProcessPage() {
       <ProcessMethodology />
       <Process />
       <ProcessEngagement />
-      <ProcessCTA />
     </div>
   );
 }
